@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #014f86;
+}
+
+#container {
+  /* display: flex; */
+  width: 80%;
+  margin: 0 auto;
+}
+  
+.header {
+  background-color: #4895ef;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#accordion_title {
+  color: #fff; 
+}
+
+.content {
+  display: none;
+}
+
+.content.block {
+  display: block;
+  color: #fff;
+}
+  
